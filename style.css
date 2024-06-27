@@ -45,41 +45,19 @@ display: inline-block;
 font-size: 20px;
 }
 
-
 a:link{
   text-decoration: none;
-
 }
 
-
+p{
+  width: 50%;
+}
 
 /*Text color#6b2e1a#beae62;; 
 
- nav/*.nav-links a */{
+ nav/*.nav-links a */
  /* background-color: 
   display: flex-end;
   justify-content: space-around;
  /* color: #e42315;
 } */
-
-h1 {
-  background-color: #000;
-  font-weight: bold;
-  align-items: center;
-  font-family: Roboto;
-}
-
-/* Payment method */
-legend {
-  background-color: #000;
-  color: #fff;
-  padding: 3px 6px;
-}
-
-input {
-  margin: 0.4rem;
-}
-
-input:invalid {
-  outline-color: red;
-}
