@@ -10,50 +10,84 @@
   <h1>Numbers/Products</h1>
   <img src="./Images/brain2.png" id="logo" alt="brain image logo">
   <br><br>
-<nav>
+
+ <nav>
   <ul class="nav-links">
     <li><a href="index.html">Home</a></li>
     <li><a href="about.html">About</a></li>
-    <li><a href="about2.html">Author</a></li>
+    <li><a href="author.html">Author</a></li>
     <li><a href="numbers.html">Numbers</a></li>
     <li><a href="contact.html">Contact</a></li>
   </ul>
-</nav>
+ </nav>
 
-<!-- Insert Images -->
+ <br><br><br><br>
+ <!-- Insert Images -->
 <div>
+  <p><b>Keychain1</b></p>
   <img src="Images/handbead1.jpeg" width = "50%" alt="Keychain1">
+  <br><br>
+  <p><b>Bracelets</b></p>
+  <img src="Images/Bowlbeads3.jpg" width="50%" alt="Bracelets"> 
   <br>
-  <img src="Images/Bowlbeads3.jpg" width="50%" alt=" Bead Bracelets"> 
-  <br>
+  <p><b>Keychain2</b></p>
   <img src="Images/handbead3.jpg" width="50%" alt="Keychain2">
 </div>
 
+<br><br>
 <!-- Form for payments methods of products  -->
 <div>
-<form> <!--Payments Methods-->
-  <fieldset>
-    <legend>Choose your paymet method </legend>
+  <form> <!--Payments Methods-->
+   <fieldset>
+     <legend><b>Billing Method</b></legend>
+     <label for="Name">Full Names</label>
+     <input type="text" name="name" id="name" placeholder="Full names">
+     <br><br>
+     <label for="email">Email</label>
+     <input type="email" name="" id="email" value="email@gmail.com">
+     <br><br>
+     <label for="city">City</label>
+     <input type="text" name="" id="city" placeholder="Nairobi">
+     <br><br>
+     <b> Mode of payment</b>
+     <br><br>
 
-    <input type="radio" id="Mpesa" name="mpesa" value="Mp" />
-    <label for="Mpesa">Mpesa</label><br />
+     <!-- Radio  -->
+     <input type="radio" name="payment" id="" value="Mpesa">Mpesa <!--Works as label-->
+     <input type="radio" name="payment" id="" value="Credit Card">Credit Card
+     <br><br>
+     <b> Check or select the product </b>
+     <br><br>
 
-    <input type="radio" id="CreditVisa" name="Credit Card" value="CV">
-    <label for="Credit Card">CreditCard</label>
-  </fieldset>
-  <p>Your Thoughts of the Product</p>
-  <textarea name="Description" id=" " cols="50" rows="20" placeholder="Thoughts on the products"></textarea>
-  <br>
-<button>Submit</button>
-</form></div>
+     <!-- Checkbox -->
+     <input type="checkbox" checked name="product" id="Keychain1" value="Keychain1">Keychain1
+     <input type="checkbox" name="product" id="Keychain2" value="Keychain2">Keychain2
+     <input type="checkbox" name="product" id="Bracelets" value="Bracelets">Bracelets
+     <br><br>
 
-<br><br><br><br><br>
+     <!-- Select option -->
+     <select name="product" id="">
+     <option value="Keychain1">Keychain1</option>
+     <option value="Keychain2">Keychain2</option>
+     <option value="Bracelets">Bracelets</option>
+     </select>
+     <br><br>
 
-<footer>
+     <input type="button" value="Submit">
+    </fieldset>
+    <br><br>
+    <p><b>Your thoughts on the products</b></p>
+    <textarea name="Description" id=" " cols="40" rows="20" placeholder="Thoughts on the products"></textarea>
+    <br>
+    <button>Submit</button>
+  </form>
+</div>
+  <br><br><br><br><br>
+  <footer>
   <h3><a href="#logo">Back To Top</a></h3>
   <br>
   <p><i>Copyright &copy;2024-Feed Art Project-All Rights Reserved</i></p>
-</footer>
+ </footer>
 
 </body>
 </html>
