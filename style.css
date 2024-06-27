@@ -1,3 +1,35 @@
+* {
+  margin: 0;
+}
+
 body {
-  background: blue;
+  background: #003636;
+}
+
+ nav/*.nav-links a */{
+  background-color: #7ea090;
+  display: flex-end;
+  justify-content: space-around;
+  color: #e42315;
+}
+
+h1 {
+  background-color: #000;
+  font-weight: bold;
+  align-items: center;
+}
+
+/* Payment method */
+legend {
+  background-color: #000;
+  color: #fff;
+  padding: 3px 6px;
+}
+
+input {
+  margin: 0.4rem;
+}
+
+input:invalid {
+  outline-color: red;
 }
