@@ -9,21 +9,26 @@ body {
   position: relative;
   color:#bbdfce;
 }
- /* Navigation list  */
+
+/* How do i make the border of nav to fit in with the content i have tried width: 100px; , place-items: center; */
+nav{ 
+  display: flex;
+  border-style: ridge;
+  padding: 8px; 
+  background-color: black;
+  margin: right 10px; 
+  
+} 
+
 li {
   display: flex; 
   margin: right;
   display: inline-block; 
   font-size: 1.25em;
-  font-weight: bold;
-
+  font-weight: bold; 
 }
 
 a:link{
-  text-decoration: none;
-}
-
-a:link {
   text-decoration: none;
 }
 
@@ -31,15 +36,15 @@ a {
   color: inherit;
 }
 
-h1{
-  font-weight: bold;
-  /* text-align:center; */
-  padding: 30px;
-  font-size: 20;
-  text-align: justify;
-  display: flex; /* Fix the allignment */
+.h1{
+  justify-content: center;
+  /* font-weight: bold; */
+  padding: 20px;
+  /* font-size: 20; */
+  text-align:center;
+  display: flex;
 }
-  #home h2 {
+#home{
   padding: 300px;
   text-align: center;
   font-family: Circular, Arial, sans-serif;
@@ -47,13 +52,22 @@ h1{
   position: relative;
   font-size: 36px;
 }
+.brain1_img{
+ali
+}
 
-p{
-  width: 50%;
+.author{
+  width: 70%;
+  word-spacing: 2px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 span{
   font-weight: bold;
+}
+
+#Copyright{
+  font-family: 'Times New Roman', Times, serif;
 }
 
 /*Text color#6b2e1a#beae62;; 
