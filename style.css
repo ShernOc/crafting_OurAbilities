@@ -17,6 +17,7 @@ nav{
   padding: 8px; 
   background-color: black;
   margin: right 10px; 
+  max-width: fit-content;
   
 } 
 
@@ -47,17 +48,20 @@ a {
 #home{
   padding: 300px;
   text-align: center;
-  font-family: Circular, Arial, sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   color:#bbdfce;
   position: relative;
   font-size: 36px;
 }
-.brain1_img{
-ali
+
+
+ .image {
+width: 100%;
+height: 100%;
 }
 
-.author{
-  width: 70%;
+.author, h4{
+  width: 100%;
   word-spacing: 2px;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -69,13 +73,3 @@ span{
 #Copyright{
   font-family: 'Times New Roman', Times, serif;
 }
-
-/*Text color#6b2e1a#beae62;; 
-
- nav/*.nav-links a */
- /* background-color: 
-  display: flex-end;
-  justify-content: space-around;
- /* color: #e42315;
-} */
-
