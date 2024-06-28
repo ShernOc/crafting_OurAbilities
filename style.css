@@ -4,22 +4,23 @@
 /* Body Style */
 body {
   background-color: #003636;
-  font-family: Circular, Arial, sans-serif;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
   position: relative;
   color:#bbdfce;
 }
- 
-#home h2 {
-  padding: 300px;
-  text-align: center;
-  font-family: Circular, Arial, sans-serif;
-  color:#bbdfce;
-  position: relative;
-  font-size: 36px;
+ /* Navigation list  */
+li {
+  display: flex; 
+  margin: right;
+  display: inline-block; 
+  font-size: 1.25em;
+  font-weight: bold;
+
 }
 
-h1{
-  text-align:left;
+a:link{
+  text-decoration: none;
 }
 
 a:link {
@@ -31,26 +32,28 @@ a {
 }
 
 h1{
-  padding:30px;
-  font-size:20;
+  font-weight: bold;
+  /* text-align:center; */
+  padding: 30px;
+  font-size: 20;
   text-align: justify;
-  display: flex; /* Fix the allignment */ 
+  display: flex; /* Fix the allignment */
 }
-
-/* Nav bars */
-li{
-  display: flex;
-margin: right;
-display: inline-block;
-font-size: 20px;
-}
-
-a:link{
-  text-decoration: none;
+  #home h2 {
+  padding: 300px;
+  text-align: center;
+  font-family: Circular, Arial, sans-serif;
+  color:#bbdfce;
+  position: relative;
+  font-size: 36px;
 }
 
 p{
   width: 50%;
+}
+
+span{
+  font-weight: bold;
 }
 
 /*Text color#6b2e1a#beae62;; 
@@ -61,3 +64,4 @@ p{
   justify-content: space-around;
  /* color: #e42315;
 } */
+
