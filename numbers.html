@@ -3,15 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Products </title>
+  <title>Products</title>
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-  <h1 class="h1">Numbers/Products</h1>
-  <img src="./Images/brain2.png" id="logo" alt="brain image logo">
-  <br><br>
-
- <nav>
+<header id="header">
+    <!--Navigation links -->
+ <nav id = "navbar">
   <ul class="nav-links">
     <li><a href="index.html">Home</a></li>
     <li><a href="about.html">About</a></li>
@@ -21,7 +19,13 @@
   </ul>
  </nav>
 
- <br><br><br><br>
+<h2 class="h2">Products</h2>
+
+</header>
+  
+  <img src="./Images/brain2.png" id="logo" alt="brain image logo">
+  <br><br>
+
  <!-- Insert Images -->
 <div>
   <p><b>Keychain1</b></p>
@@ -59,7 +63,7 @@
      <b> Check or select the product </b>
      <br><br>
      
-     <!-- Checkbox -->
+     <!-- Checkbox // updates so the keys will show up as with >  -->
      <input type="checkbox" checked name="product" id="Keychain1" value="Keychain1">Keychain1
      <input type="checkbox" name="product" id="Keychain2" value="Keychain2">Keychain2
      <input type="checkbox" name="product" id="Bracelets" value="Bracelets">Bracelets
@@ -73,24 +77,26 @@
      </select>
      <br><br>
 
-     <input type="button" value="Submit">
+     <button id="button">submit </button>
+
     </fieldset>
     <br><br>
+  </form>
+
+  <section>
     <p><b>Your thoughts on the products</b></p>
     <textarea name="Description" id=" " cols="40" rows="20" placeholder="Thoughts on the products"></textarea>
     <br>
     <button>Submit</button>
-  </form>
+  </section>
  </div>
-  <br><br><br><br><br>
-  <footer>
 
- <br><br><br><br><br>
- 
+  <br><br><br><br><br>
+
  <footer>
   <h3><a href="#logo">Back To Top</a></h3>
   <br>
-  <p id="Copyright"><i>Copyright &copy;2024-Feed Art Project-All Rights Reserved</i></p>
+  <p id="Copyright"><i>Copyright &copy;2024-Crafting Our Abilities-All Rights Reserved</i></p>
  </footer>
 
 </body>

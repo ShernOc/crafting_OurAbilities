@@ -3,50 +3,59 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contanct</title>
+  <title>Contact</title>
   <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-  <h1 class="h1">Contact Us</h1>
+  <header id="header">
+    <!--Navigation links -->
+ <nav id = "navbar">
+  <ul class="nav-links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="author.html">Author</a></li>
+    <li><a href="numbers.html">Numbers</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+ </nav>
+
+ <h2 class="h2">Contact Us</h2> 
+
+  </header>
+  <br>
   <img src="./Images/brain2.png" id="logo" alt="brain image logo">
   <br><br>
-  <nav>
-    <ul class="nav-links">
-      <li><a href="index.html">Home</a></li>
-      <li><a href="about.html">About</a></li>
-      <li><a href="author.html">Author</a></li>
-      <li><a href="numbers.html">Numbers</a></li>
-      <li><a href="contact.html">Contact</a></li>
-    </ul>
-  </nav>
+
   <!-- Insert Image  -->
   <img src="./Images/logo1.jpg" width="50%" height="10%"   alt="Bead image">
   <br><br>
-  <!-- Contact us form -->
-    <p><b>Talk to Us</b></p>
+  <main> 
+    <p><strong>Talk to Us</strong></p>
     <br>
-       <form>
-    <label for="Name">Full Names</label>
+    <!-- Contact us form -->
+    <form>
+    <label for="Name">Full Names: </label>
     <input type="text" name="name" id="name" placeholder="Full names">
     <br><br>
-    <label for="email">Email</label>
-    <input type="email" name="" id="" value="email@gmail.com">
+    <label for="email">Email:</label>
+    <input type="email" name="email" value="email@gmail.com">
     <br><br>
-
-    <p><b>Describe Your Experience</b></p>
+    <p>
+      <b>Describe Your Experience</b>
+    </p>
 
     <textarea name="Description" id="" placeholder="How was your experience ?" cols="40" rows="20"></textarea> 
     <br><br>
-    <button>Submit</button>
+    <button id="button">Submit</button>
    </form>
-
-  <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  </main>
+  <br><br><br><br><br>
+  <!-- Footer  -->
   <footer>
   <h3><a href="#logo">Back To Top</a></h3>
   <br>
-  <p id="Copyright"><i>Copyright &copy;2024-Feed Art Project-All Rights Reserved</i></p>
+  <p id="Copyright"><i>Copyright &copy;2024-Crafting Our Abilities-All Rights Reserved</i></p>
  </footer>
-
 
 </body>
 </html>

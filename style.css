@@ -11,19 +11,24 @@ body {
 }
 
 /* How do i make the border of nav to fit in with the content i have tried width: 100px; , place-items: center; */
+
+header{
+  text-align: center;
+}
+
 nav{ 
-  display: flex;
-  border-style: ridge;
+  display: inline-block;
+  max-width: fit-content;
+  text-align: center;
   padding: 8px; 
   background-color: black;
-  margin: right 10px; 
-  max-width: fit-content;
-  
+  margin:20px 10px; 
 } 
 
-li {
-  display: flex; 
-  margin: right;
+ul{
+  padding-left:0;
+}
+li{
   display: inline-block; 
   font-size: 1.25em;
   font-weight: bold; 
@@ -38,7 +43,7 @@ a {
 }
 
 .h1{
-  justify-content: center;
+  align-items: center;
   /* font-weight: bold; */
   padding: 20px;
   /* font-size: 20; */
