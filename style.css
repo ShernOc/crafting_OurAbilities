@@ -4,20 +4,25 @@
 
 /* Body Style */
 body {
-  background-color: #003636;
+  background-color:#bbdfce;
   font-family: 'Courier New', Courier, monospace;
   font-size: 20px;
   position: relative;
-  color:#bbdfce;
+  color: #003636;
 }
 
 /* How do i make the border of nav to fit in with the content i have tried width: 100px; , place-items: center; */
 
+#header, .cs-footer{
+  background-color: #003636;
+  color:#bbdfce;
+}
+
 
 #title{
-  text-align:left;
+  text-align:center;
   padding:20px;
-  font-family:Chalkduster, fantasy;
+  /* font-family:; */
   color:inherit;
   font-size:30px;
 }
@@ -27,7 +32,6 @@ nav{
   justify-content:center;
   padding:10px; 
   width: 100%;
-  margin:10px; 
 } 
 
 ul{
@@ -79,6 +83,7 @@ height: 100%;
 span{
   font-weight: bold;
 }
+
 
 #Copyright{
   font-family: 'Times New Roman', Times, serif;
